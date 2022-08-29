@@ -24,6 +24,14 @@
 
 `python json_dict.py`
 
+### 图片查重
+
+根据`dhash`数据计算汉明距离判断相似度，汉明距离低于5则为相同图片，将会输出到`repete.json`
+
+`python repete.py`
+
+若需要更多`imagehash`信息，请访问[书樱寄语](https://sakurapuare.com/archives/2021/02/image-hash-algorithm/)
+
 ## 图片
 
 下载的图片请查看其他branch
